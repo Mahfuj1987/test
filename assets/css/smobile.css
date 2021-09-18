@@ -1,0 +1,88 @@
+.menu{display: grid;
+    grid-template-columns:1fr;
+    height: 100vh;
+}
+.menu-banner{
+width: 14rem;
+}
+.special-menu{
+    height: 50vh;
+    width: 96%;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .special-menu-item{
+      display: none;
+      width: 60%;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+  }
+  .special-menu-item h3 {
+      font-size: 2rem;
+  }
+  
+  .special-menu-pic img{
+    height: rem;
+    width: 10rem;
+}
+.sp-menu-display{
+    grid-template-columns: 1fr;
+}
+ 
+.menu-image{
+    display: none;
+
+}
+nav ul{
+    display: none;
+}
+.display-area-pic h2{
+font-size: 1.7rem;
+}
+.special-menu-pic{
+    grid-template-columns: 1fr;
+}
+.sm-divice-none{
+    display: none;
+}
+.reservation-area{
+    grid-template-columns: .8fr;
+    grid-row-gap: .5rem;
+    height: 100vh;
+    justify-content: center;
+}
+.left-pic img {
+    height: 12rem;
+    width: 12rem;
+}
+.form-heading-line h2{
+    font-size: 1.5rem;
+}
+.form-heading-line h3{
+    font-size: 1.5rem;
+}
+.form-row{
+    width: 80%;
+}
+/* .ft{
+    grid-template-columns:1fr ;
+    height: auto;
+    grid-row-gap: 2rem;
+} */
+.ft{
+    grid-template-columns:1fr;
+    height: auto;
+    width: 100%;
+    color: white;
+  }
+  .another-content ul li{
+    text-align: center;
+    padding: 0 4rem;
+    font-size: 1.4rem;
+   }
+.divider-line-footer{
+    display: none
+  }
